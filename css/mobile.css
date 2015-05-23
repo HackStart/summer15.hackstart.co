@@ -25,9 +25,12 @@ p {
   width: 100%; 
 }
 
+#io-container{
+	background: url('vid/Saint_Barthelemy.png') no-repeat #000000;
+}
+
 .io-content-header{
     box-shadow:0 2px 4px rgba(0,0,0,.2);
-    padding-top:10px;
     max-height:100px;
     min-height:100px;
     width:100%;
@@ -35,8 +38,8 @@ p {
 }
 
 .io-content-header h1{
-    font-size: 2em;
 	padding: 0;
+	display:inline;
 }
 
 .smallcontainer {
