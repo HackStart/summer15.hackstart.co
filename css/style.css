@@ -29,10 +29,14 @@ p {
 }
 
 .card .title {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 300; 
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 700; 
 	padding-bottom: 0;
+}
+
+.card .p {
+	font-size: 1em;
 }
 
 .io-content{
@@ -52,12 +56,29 @@ p {
 	max-width:100%
 }
 
+input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+	height: 4rem;
+	font-size: 2rem;
+}
+
+.input-field label {
+    color: #9e9e9e;
+    position: absolute;
+    top: 1.5rem;
+    left: 0.75rem;
+    font-size: 1.5rem;
+}
+
+.input-field label.active {
+	font-size: 1.5rem; 
+}
+
 .io-content-header{
-    box-shadow:0 2px 4px rgba(0,0,0,.2);
-    max-height:100px;
-    min-height:100px;
-    width:100%;
-    padding-left:15%;
+	box-shadow:0 2px 4px rgba(0,0,0,.2);
+	max-height:100px;
+	min-height:100px;
+	width:100%;
+	padding-left:15%;
 }
 
 .io-content-header h1{
@@ -75,17 +96,17 @@ p {
 }
 
 .container {
-  padding: 0 1.5rem;
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 90%; 
+	padding: 0 1.5rem;
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 90%; 
 }
 
 .smallcontainer {
-  padding: 0 1.5rem;
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 70%; 
+	padding: 0 1.5rem;
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 70%; 
 }
 
 .smallcontainer h2 {
@@ -206,5 +227,5 @@ nav {
 }
 
 #sponsor-wall > a:nth-child(2) {
-		height: 150px;
+	height: 150px;
 }
