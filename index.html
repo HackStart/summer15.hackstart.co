@@ -156,14 +156,14 @@
 													<form class="col s12">
 														<div class="row">
 															<div class="input-field col s12 m6 l6">
-																<input placeholder="johndoe@gmail.com" id="partner_email" type="email" class="validate" tabindex="1">
+																<input id="partner_email" type="email" class="validate" tabindex="1">
 																<label for="partner_email">Email</label>
 															</div>
 															<div class="input-field col s12 m6 l6">
-																<input placeholder="Google Inc." id="partner_name" type="text" class="validate" tabindex="2">
+																<input id="partner_name" type="text" class="validate" tabindex="2">
 																<label for="partner_name">Company</label>
 															</div>
-															<div class="input-field col s12">
+															<div class="input-field col s12 m12 l12">
 																<textarea id="partner_body" class="materialize-textarea" tabindex="3"></textarea>
 																<label for="partner_body">Tell us a bit about yourself</label>
 															</div>
@@ -195,11 +195,11 @@
 													<form class="col s12">
 														<div class="row">
 															<div class="input-field col s12 m6 l6">
-																<input placeholder="johndoe@gmail.com" id="sponsor_email" type="email" class="validate" tabindex="5">
+																<input id="sponsor_email" type="email" class="validate" tabindex="5">
 																<label for="sponsor_email">Email</label>
 															</div>
 															<div class="input-field col s12 m6 l6">
-																<input placeholder="Google Inc." id="sponsor_name" type="text" class="validate" tabindex="6">
+																<input id="sponsor_name" type="text" class="validate" tabindex="6">
 																<label for="sponsor_name">Company</label>
 															</div>
 															<div class="input-field col s12">
@@ -220,57 +220,156 @@
 						</div>
 					</div>
 				</div>
-				<!--<div class="io-content opaque" id="involve">
-<div class="col s12 io-content-header red accent-2 valign-wrapper">
-<h1 class="white-text valign">Get Involved</h1>
-</div>
-<div class="io-section">
-<div class="container">
-<div class="row"
-<div class="col s12">
-<ul class="tabs">
-<li class="tab col s3"><a href="#test1">Be a Mentor!</a></li>
-<li class="tab col s3"><a class="active" href="#test2">Be a Volunteer!</a></li>
-</ul>
-</div>
-<div id="test1" class="col s12">Test 1</div>
-<div id="test2" class="col s12">Test 2</div>
-<div id="test3" class="col s12">Test 3</div>
-<div id="test4" class="col s12">Test 4</div>
-</div>
-</div>
-</div>
-</div>-->
-				<!--<div class="io-content opaque" id="team">
-<div class="col s12 io-content-header red accent-2 valign-wrapper">
-<h1 class="white-text valign">Who we are</h1>
-</div>
-</div>-->
+				<div class="io-content opaque" id="involve">
+					<div class="col s12 io-content-header red accent-2 valign-wrapper">
+						<h1 class="white-text valign">Get Involved</h1>
+					</div>
+					<div class="io-section">
+						<div class="container">
+							<div class="row"
+								 <div class="col s12">
+							<ul class="tabs">
+								<li class="tab col s3"><a class="active" href="#mentor">Be a Mentor!</a></li>
+								<li class="tab col s3"><a href="#volunteer">Be a Volunteer!</a></li>
+							</ul>
+						</div>
+						<div id="mentor" class="col s12">
+							<div class="container">
+								<h1>HackStart will be welcoming high school students to come and build extraordinary things. However, they'll need your help! As mentors, you'll be advising these students in implementing their ideas and turning them into reality.</h1>
+								<div class="row">
+									<form class="col s12">
+										<div class="row">
+											<div class="input-field col s12 m6 l6">
+												<input id="mentor_fname" type="text" class="validate" tabindex="9">
+												<label for="mentor_fname">First Name</label>
+											</div>
+											<div class="input-field col s12 m6 l6">
+												<input id="mentor_lname" type="text" class="validate" tabindex="10">
+												<label for="mentor_lname">Last Name</label>
+											</div>
+											<div class="input-field col s12 m6 l6">
+												<input id="mentor_phone" type="tel" class="validate" tabindex="11">
+												<label for="mentor_phone">Phone Number</label>
+											</div>
+											<div class="input-field col s12 m6 l6">
+												<input id="mentor_email" type="email" class="validate" tabindex="12">
+												<label for="mentor_email">Email</label>
+											</div>
+											<div class="input-field col s12 m12 l12">
+												<textarea id="mentor_field" class="materialize-textarea" tabindex="13"></textarea>
+												<label for="mentor_field">What languages, technologies, devices, frameworks, APIs, platforms, and/or other fields are you able to provide mentorship in for the hackers?</label>
+											</div>
+											<div class="input-field col s12 m12 l12">
+												<textarea id="mentor_availibility" class="materialize-textarea" tabindex="14"></textarea>
+												<label for="mentor_availibility">Which hours will you be available?</label>
+											</div>
+											<div class="input-field col s12 m12 l12">
+												<textarea id="mentor_comments" class="materialize-textarea" tabindex="15"></textarea>
+												<label for="mentor_comments">Comments</label>
+											</div>
+										</div>
+										<div style="float:right;">
+											<p>
+												<input type="checkbox" class="filled-in" id="volunteer_news"/>
+												<label for="mentor_news">Sign up for newsletter</label>
+											</p>
+											<a class="waves-effect waves-light btn disabled red accent-2" tabindex="16"><i class="mdi-content-send right"></i>Submit</a>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div id="volunteer" class="col s12">
+							<div class="container">
+								<h1>An event like this can't happen without your help!</h1>
+								<h2>We will need a number of volunteers to make sure that the event happens smoothly without any bumps. The types of volunteers that we need are as follows</h2>
+								<ul class='collection'>
+									<li class="collection-item"> 
+										<h3>Fuel Feeder</h3>
+										<p>Help coordinate deliveries, manage food, and operate registration!</p>
+									</li>
+									<li class="collection-item"> 
+										<h3>Floater</h3>
+										<p>We’re looking for sharp kids to spot out issues while others are busy.</p>
+									</li>
+									<li class="collection-item"> 
+										<h3>Cheerleader</h3>
+										<p>We’re looking for kids filled with spirit. It takes a special kind of person to keep people happy at 3:00 AM. </p>
+									</li>
+								</ul>
+								<div class="row">
+									<form class="col s12">
+										<div class="row">
+											<div class="input-field col s12 m6 l6">
+												<input id="volunteer_fname" type="text" class="validate" tabindex="9">
+												<label for="volunteer_fname">First Name</label>
+											</div>
+											<div class="input-field col s12 m6 l6">
+												<input id="volunteer_lname" type="text" class="validate" tabindex="10">
+												<label for="volunteer_lname">Last Name</label>
+											</div>
+											<div class="input-field col s12 m6 l6">
+												<input id="volunteer_phone" type="tel" class="validate" tabindex="11">
+												<label for="volunteer_phone">Phone Number</label>
+											</div>
+											<div class="input-field col s12 m6 l6">
+												<input id="volunteer_email" type="email" class="validate" tabindex="12">
+												<label for="volunteer_email">Email</label>
+											</div>
+											<div class="input-field col s12 m12 l12">
+												<textarea id="volunteer_role" class="materialize-textarea" tabindex="14"></textarea>
+												<label for="volunteer_role">Which roles would you be confortable filling?</label>
+											</div>
+											<div class="input-field col s12 m12 l12">
+												<textarea id="volunteer_availibility" class="materialize-textarea" tabindex="14"></textarea>
+												<label for="volunteer_availibility">Which hours will you be available?</label>
+											</div>
+											<div class="input-field col s12 m12 l12">
+												<textarea id="volunteer_comments" class="materialize-textarea" tabindex="15"></textarea>
+												<label for="volunteer_comments">Comments</label>
+											</div>
+										</div>
+
+										<div style="float:right;">
+											<p>
+												<input type="checkbox" class="filled-in" id="volunteer_news"/>
+												<label for="volunteer_news">Sign up for newsletter</label>
+											</p>
+											<a class="waves-effect waves-light btn disabled red accent-2" tabindex="16"><i class="mdi-content-send right"></i>Submit</a>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
+	</div>
 
-		<!--Import jQuery before materialize.js-->
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script type="text/javascript">$(".button-collapse").sideNav();</script>
-		<script type="text/javascript">
-			$(document).ready(function(){
-				$('ul.tabs').tabs();
-				$('.collapsible').collapsible({
-					accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
-				});
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript">$(".button-collapse").sideNav();</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('ul.tabs').tabs();
+			$('select').material_select();
+			$('.collapsible').collapsible({
+				accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
 			});
-		</script>
-		<script type="text/javascript" src='js/smooth-scroll.js'></script>
-		<script>
-			smoothScroll.init({
-				speed: 1000,
-				easing: 'easeInOutCubic',
-				offset: 0,
-				updateURL: true,
-				callbackBefore: function ( toggle, anchor ) {},
-				callbackAfter: function ( toggle, anchor ) {}
-			});
-		</script>
-		<script type="text/javascript" src="js/materialize.min.js"></script>
+		});
+	</script>
+	<script type="text/javascript" src='js/smooth-scroll.js'></script>
+	<script>
+		smoothScroll.init({
+			speed: 1000,
+			easing: 'easeInOutCubic',
+			offset: 0,
+			updateURL: true,
+			callbackBefore: function ( toggle, anchor ) {},
+			callbackAfter: function ( toggle, anchor ) {}
+		});
+	</script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
 	</body>
 </html>
