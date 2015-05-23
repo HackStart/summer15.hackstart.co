@@ -26,7 +26,7 @@ p {
 }
 
 #io-container{
-	background: url('vid/Saint_Barthelemy.png') no-repeat #000000;
+	background: url('../vid/Saint_Barthelemy.png') no-repeat #000000;
 }
 
 .io-content-header{
