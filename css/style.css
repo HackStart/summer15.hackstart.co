@@ -1,5 +1,5 @@
 body{
-	background:#eee;
+	background:#eeeeee;
 	width:100vw;
 	height:100vh;
 	overflow-x:hidden;
@@ -8,6 +8,10 @@ body{
 
 p {
 	font-size: 1.5em;
+}
+
+.mobileonly {
+	display: none;
 }
 
 .io-site{
@@ -22,6 +26,13 @@ p {
 	height:100%;
 	width:100%;
 	z-index:2
+}
+
+.card .title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300; 
+	padding-bottom: 0;
 }
 
 .io-content{
@@ -43,7 +54,6 @@ p {
 
 .io-content-header{
     box-shadow:0 2px 4px rgba(0,0,0,.2);
-    padding-top:10px;
     max-height:100px;
     min-height:100px;
     width:100%;
@@ -51,6 +61,7 @@ p {
 }
 
 .io-content-header h1{
+	padding: 0;
 	display:inline;
 }
 
@@ -60,7 +71,7 @@ p {
 }
 
 .opaque{
-	background-color: #eeeeee;
+	background-color: #e0e0e0;
 }
 
 .container {
@@ -192,4 +203,8 @@ nav {
 
 	filter: none;
 	-webkit-filter: grayscale(0);
+}
+
+#sponsor-wall > a:nth-child(2) {
+		height: 150px;
 }
