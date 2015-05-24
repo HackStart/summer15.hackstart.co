@@ -36,7 +36,7 @@
 						<h2 class="white-text text-darken-2">July 2015</h2>
 						<h2 class="white-text text-darken-2">Atlanta, Georgia</h2>
 						<h1 class="white-text text-darken-2">Compete against other high schoolers to win cash prizes</h1>
-						<a data-scroll href="#about" class="waves-effect waves-light btn red">
+						<a href="#about" data-scroll class="waves-effect waves-light btn red">
 							<span class="white-text">Learn More!</span>
 							<i class="mdi-navigation-expand-more white-text"></i>
 						</a>
@@ -50,12 +50,14 @@
 					<div class="col hide-on-small-only m1 l1">
 						<div class="toc-wrapper" style="top:50%; right:3%;">
 							<div class="card-panel" style="height:auto;">
-								<ul class="table-of-contents">
-									<li><a data-scroll href="#header" class="">Home</a></li>
-									<li><a data-scroll href="#about" class="">About</a></li>
-									<li><a data-scroll href="#faq" class="">FAQ</a></li>
-									<li><a data-scroll href="#sponsors" class="">Sponsors</a></li>
-									<li><a data-scroll href="#involve" class="">Get Involved</a></li>
+								<ul class="table-of-contents" style="margin:0;">
+									<li><a href="#header" data-scroll class="">Home</a></li>
+									<li><a href="#about" data-scroll class="">About</a></li>
+									<li><a href="#faq" data-scroll class="">FAQ</a></li>
+									<li><a href="#sponsors" data-scroll class="">Sponsors</a></li>
+									<li><a href="#involve" data-scroll class="">Get Involved</a></li>
+									<li style="text-align: center; color:#999;">--</li>
+									<a href="mailto:anthonyliu@anthonyliu.com" data-scroll class="">Contact</a>
 								</ul>
 							</div>
 						</div>
@@ -377,15 +379,16 @@
 			$(document).ready(function(){
 				$('ul.tabs').tabs();
 				$('.scrollspy').scrollSpy({ target: '#spy', offset:80});
-				$('select').material_select();
 				$('.collapsible').collapsible({
 					accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
 				});
 				$(document).ready(function(){
-					$('.toc-wrapper').pushpin({ top: $('#header').offset().top, offset: $('#header').height()/3});
+					$('.toc-wrapper').pushpin({
+						top: $('#header').offset().top, offset: $('#header').height()/3
+					});
 				});
 				
-				$('a[href*=#]:not([href=#])').click(function() {
+				$('a[href*=#about], a[href*=#home], a[href*=#faq],a[href*=#involve], a[href*=#sponsors]').click(function() {
 					if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
 						var target = $(this.hash);
