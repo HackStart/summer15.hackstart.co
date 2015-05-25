@@ -19,7 +19,7 @@ p {
 	display:-ms-flexbox;
 	display:-webkit-flex;
 	display:flex;
-	background-color:rgba(255,255,255,.9);
+	background-color:rgba(0,0,0,.9);
 	position:relative;
 	min-height:100%;
 	min-width:100%;
