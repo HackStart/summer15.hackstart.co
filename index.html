@@ -1,409 +1,281 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
-		<!--Import materialize.css-->
-		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="HackStart" content="">
+		<title>HackStart Summer 2015</title>
+
 		<link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="styles/style.css">
+		<link rel="stylesheet" media="screen and (max-width : 480px)" type="text/css" href="styles/mobile.css">
+		<link rel="stylesheet" media="screen and (max-device-width: 480px)" type="text/css" href="styles/mobile.css">
+		<link rel="stylesheet" media="screen and (-webkit-device-pixel-ratio:.75)" type="text/css" href="styles/mobile.css">
+		<link rel="stylesheet" media="screen and (max-device-width : 480px)" type="text/css" href="styles/mobile.css">
 
-		<link rel="stylesheet" href="css/style.css">
-
-		<link rel="stylesheet" media="screen and (max-width : 480px)" type="text/css" href="css/mobile.css">
-		<link rel="stylesheet" media="screen and (max-device-width: 480px)" type="text/css" href="css/mobile.css">
-		<link rel="stylesheet" media="screen and (-webkit-device-pixel-ratio:.75)" type="text/css" href="css/mobile.css">
-		<link rel="stylesheet" media="screen and (max-device-width : 480px)" type="text/css" href="css/mobile.css"> 
-
-		<meta property="og:url" content="http://hackstart.me"/>
-		<meta property="og:title" content="HackStart | July 2015"/>
-		<meta property="og:description" content="Building isn't for the weak. It demands grit. Courage. Fire. And the ability to look past those who call you crazy - those who say you will fail. Because maybe you will. In fact, you'll fail 99 times before you succeed once. But when you finally make it - when you finally taste the glorious fruits of your triumph - that's when you'll realize you never truly failed. Welcome to Atlanta."/>
-		<!--Let browser know website is optimized for mobile-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
 	</head>
+
 	<body>
+		<header class="section scrollspy" id="header-container">
+			<div id="header">
+				<div>
+					<img src="img/logo.svg" alt="HackStart" id="logo">
+					<h2 class="white-text text-darken-2">3405 Piedmont Rd NE, Atlanta, Georgia</h2>
+					<h2 class="white-text text-darken-2">6:00pm July 10 to 6:00pm July 11 2015</h2>
+					<h1 class="white-text text-darken-2">Compete against other high schoolers to win cash prizes</h1>	
+					<a style="margin-top: 30px;" class="waves-effect waves-light btn red accent-2" href="http://www.eventbrite.com/e/hackstart-summer-2015-tickets-17403680878?ref=ebtn" target="_blank"><div class="white-text">Register Now!</div></a>
 
-		<div class="io-site">
-			<div class="io-container">
-				<div class="io-content valign-wrapper scrollspy" id="header">
-					<video autoplay="autoplay" loop="loop" autobuffer="autobuffer" muted="muted" poster="vid/Saint_Barthelemy.png" id="bgvid">
-						<source src="vid/Saint_Barthelemy.mp4" type="video/mp4" />
-					</video>
-					<div id="logo-container">
-						<img src="img/logo.svg" alt="HackGT" id="logo" />
-						<h2 class="white-text text-darken-2">July 2015</h2>
-						<h2 class="white-text text-darken-2">Atlanta, Georgia</h2>
-						<h1 class="white-text text-darken-2">Compete against other high schoolers to win cash prizes</h1>
-						<a href="#about" data-scroll class="waves-effect waves-light btn red">
-							<span class="white-text">Learn More!</span>
-							<i class="mdi-navigation-expand-more white-text"></i>
-						</a>
+				</div>
+			</div>
+			<video autoplay="autoplay" loop="loop" autobuffer="autobuffer" muted="muted" poster="vid/Saint_Barthelemy.png" id="bgvid">
+				<source src="vid/Saint_Barthelemy.mp4" type="video/mp4">
+			</video>
+		</header>
+
+		<div class="section scrollspy section-container red lighten-1" id="about">
+			<div class="section-header red darken-1">
+				<h1>What is HackStart?</h1>
+			</div>
+			<div class="row">
+				<div class="col s1 m3 l3"></div>
+				<div class="col s10 m6 l6">
+					<p class="white-text text-darken-2">
+						HackStart is a hackathon for high school students. Over the course of two days and one night, you will face new challenges, meet new people, and build something extraordinary. Form teams of four to develop apps and pitch them to judges for a unique opportunity to take home a cash prize!
+					</p>
+				</div>
+				<div class="col s1 m3 l3"></div>
+			</div>
+			<div class="row">
+				<div class="col s0 m2 l2"></div>
+				<div class="col s10 m8 l8"> 
+					<div class="video-container no-controls">
+						<iframe modestbranding="1" showinfo="0" src="https://www.youtube.com/embed/SCyFxcMsjnA?rel=0;;autohide=1" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col s0 m2 l2"></div>
+			</div>
+		</div>
+
+		<div class="section scrollspy section-container yellow lighten-2" id="FAQ">
+			<div class="section-header yellow darken-2">
+				<h1>FAQ</h1>
+			</div>
+			<div class="center">
+				<div class="faq">
+					<div class="row">
+						<div class="col s12 m6 l6">
+							<div class="row">
+								<div class="col s12 m12 l12">
+									<div class="card">
+										<div class="card-content">
+											<span class="title black-text">What if I can't code?</span>
+											<p>If you can't code, this is the perfect opportunity for you to learn. We will offer programming workshops to get you started. Or you can just show up to hang out!</p>
+										</div>
+									</div>
+								</div>
+								<div class="col s12 m12 l12">
+									<div class="card">
+										<div class="card-content">
+											<span class="title black-text">When and where will this be happening?</span>
+											<p>6:00PM July 10th - 6:00PM July 11th at 3405 Piedmont Rd NE, Atlanta, GA 30305 (remember to rsvp at our eventbrite page!)</p>
+										</div>
+									</div>
+								</div>
+								<div class="col s12 m12 l12">
+									<div class="card">
+										<div class="card-content">
+											<span class="title black-text">How much does it cost to attend?</span>
+											<p>HackStart is completely free. We will pay for your meals and any related costs, so there is no price on your part. Just show up!</p>
+										</div>
+									</div>
+								</div>
+								<div class="col s12 m12 l12">
+									<div class="card">
+										<div class="card-content">
+											<span class="title black-text">What if I don't have a team?</span>
+											<p>The team registration period will be happening on the first day of the event. During this time we will provide you with opportunities to meet others without teams and form new dynamic ones.</p> 
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m6 l6">
+							<div class="row">
+								<div class="col s12 m12 l12">
+									<div class="card">
+										<div class="card-content">
+											<span class="title black-text">Could I see some example projects?</span>
+											<p>Here are the submissions from <a href="http://hackgt2014.challengepost.com/submissions">HackGT</a> and <a href="https://www.youtube.com/watch?v=0Q5DNt3ne4I">hackNY</a> last year.</p> 
+										</div>
+									</div>
+								</div>
+								<div class="col s12 m12 l12">
+									<div class="card">
+										<div class="card-content">
+											<span class="title black-text">What can I build?</span>
+											<p>You can build anything you want! Whether it's a web app, a mobile app, or a fun game, as long as it was created in the 24 hours of the event, it's perfectly OK! Be creative with what you decide to build!</p>
+										</div>
+									</div>
+								</div>
+								<div class="col s12 m12 l12">
+									<div class="card">
+										<div class="card-content">
+											<span class="title black-text">What if I have never attended a Hackathon before?</span>
+											<p>There's a first time for everything! This is a great opportunity for you to meet new people and learn new concepts that you wouldn't even think of learning.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col s12 m12 l12">
+									<div class="card">
+										<div class="card-content">
+											<span class="title black-text">Can my parent or coach stay during the event?</span>
+											<p>Anyone is welcome to stay and spectate as long as they don't interfere with our competitors as they create their extraordinary projects!</p>
+										</div>
+									</div>
+								</div>
+								<div class="col s12 m12 l12">
+									<div class="card">
+										<div class="card-content">
+											<span class="title black-text">What if I'm not a college student?</span>
+											<p>We say that this is a high school hackathon, but college students are free to participate! Our goal is to create a hackathon enviornment for people who lack experience.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="io-site">
-			<div class="io-container">
-				<div style="z-index:4;" class="row">
-					<div class="col hide-on-small-only m1 l1">
-						<div class="toc-wrapper" style="top:50%; right:3%;">
-							<div class="card-panel" style="height:auto;">
-								<ul class="table-of-contents" style="margin:0;">
-									<li><a href="#header" data-scroll class="">Home</a></li>
-									<li><a href="#about" data-scroll class="">About</a></li>
-									<li><a href="#faq" data-scroll class="">FAQ</a></li>
-									<!--<li><a href="#sponsors" data-scroll class="">Sponsors</a></li>
-									<li><a href="#involve" data-scroll class="">Get Involved</a></li>-->
-									<li style="text-align: center; color:#999;">--</li>
-									<a href="mailto:anthonyliu@anthonyliu.com" data-scroll class="">Contact</a>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="io-content opaque scrollspy" id="about">
-					<div class="col s12 io-content-header red accent-2 valign-wrapper">
-						<h1 class="white-text valign">About</h1>
-					</div>
-					<div class="io-section">
-						<div class="container">
-							<div class="smallcontainer">
-								<h2>So what exactly is HackStart?</h2>
-								<p>HackStart is a hackathon for high school students. Over the course of two days and one night, you will face new challenges, meet new people, and build something extraordinary. Form teams of four to develop apps and pitch them to judges for a unique opportunity to take home a cash prize! </p>
-							</div>
-							<div class="video-container no-controls">
-								<iframe width="853" height="480" src="https://www.youtube.com/embed/SCyFxcMsjnA?rel=0;;autohide=1" frameborder="0" allowfullscreen></iframe>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="io-content opaque scrollspy" id="faq">
-					<div class="col s12 io-content-header red accent-2 valign-wrapper">
-						<h1 class="white-text valign">Frequently Asked Questions</h1>
-					</div>
-					<div class="io-section">
-						<div class="container">
-							<div class="row">
-								<div class="col s12 m6 l6">
-									<div class="row">
-										<div class="col s12 m12 l12">
-											<div class="card">
-												<div class="card-content">
-													<span class="title black-text">What if I can't code?</span>
-													<p>The purpose of this event is for you to learn something new; if you can't code, this is the perfect opportunity for you to learn. We will offer programming workshops to get you started, and by the end of HackStart, you'll have created something extraordinary for the world to see!</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s12 m12 l12">
-											<div class="card">
-												<div class="card-content">
-													<span class="title black-text">When and where will this be happening?</span>
-													<p>HackStart will be happening early July in downtown Atlanta. More details will be provided later.</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s12 m12 l12">
-											<div class="card">
-												<div class="card-content">
-													<span class="title black-text">How much does it cost to attend?</span>
-													<p>HackStart is completely free. We will pay for your meals and any related costs, so there is no price on your part. Just show up!</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s12 m12 l12">
-											<div class="card">
-												<div class="card-content">
-													<span class="title black-text">What if I don't have a team?</span>
-													<p>The team registration period will be happening on the first day of the event. During this time we will provide you with opportunities to meet other people and form new dynamic teams.</p> 
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col s12 m6 l6">
-									<div class="row">
-										<div class="col s12 m12 l12">
-											<div class="card">
-												<div class="card-content">
-													<span class="title black-text">Could I see some example projects?</span>
-													<p><a href="http://hackgt2014.challengepost.com/submissions">Here are the submissions from HackGT last year.</a></p> 
-												</div>
-											</div>
-										</div>
-										<div class="col s12 m12 l12">
-											<div class="card">
-												<div class="card-content">
-													<span class="title black-text">What can I build?</span>
-													<p>You can build anything you want! Whether it's a website, an mobile app, or a computer app, as long as it was created in the 24-36 hours of the event, it's perfectly OK! Be creative with what you decide to build!</p>
-												</div>
-											</div>
-										</div>
-										<div class="col s12 m12 l12">
-											<div class="card">
-												<div class="card-content">
-													<span class="title black-text">What if I have never attended a Hackathon before?</span>
-													<p>That's good! No previous experience is required to have a good time. This is a great opportunity for you to meet new people and learn new concepts that you wouldn't even think of learning.</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--<div class="io-content opaque scrollspy" id="sponsors">
-					<div class="col s12 io-content-header red accent-2 valign-wrapper">
-						<h1 class="white-text valign">Sponsors and Partners</h1>
-					</div>
-					<div class="io-section">
-						<div class="container">
-							<div class="smallcontainer">
-								<h2>Partners</h2>
-							</div>
+		<!--
+<div class="section scrollspy section-container cyan lighten-1" id="Schedule">
+<div class="section-header cyan darken-2">
+<h1>Schedule</h1>
+</div>
 
-							<div id="sponsor-wall" style="width: 70%; margin: 0 auto; text-align: center;">
-								<a href="http://www.workingtogetherforchange.com/"><img src="img/partnerWTFC.jpg" style="height: 120px"/></a>
-							</div>
-
-							<div class="smallcontainer">
-								<ul class="collapsible popout" data-collapsible="accordion">
-									<li>
-										<div class="collapsible-header"><i class="mdi-action-account-child"></i>Become a partner!</div>
-										<div class="collapsible-body">
-											<div class="container">
-												<h2>Send us an email and we'll get back to you asap!</h2>
-												<div class="row">
-													<form class="col s12">
-														<div class="row">
-															<div class="input-field col s12 m6 l6">
-																<input id="partner_email" type="email" class="validate" tabindex="1">
-																<label for="partner_email">Email</label>
-															</div>
-															<div class="input-field col s12 m6 l6">
-																<input id="partner_name" type="text" class="validate" tabindex="2">
-																<label for="partner_name">Company</label>
-															</div>
-															<div class="input-field col s12 m12 l12">
-																<textarea id="partner_body" class="materialize-textarea" tabindex="3"></textarea>
-																<label for="partner_body">Tell us a bit about yourself</label>
-															</div>
-														</div>
-													</form>
-
-													<div style="float:right;">
-														<a class="waves-effect waves-light btn disabled red accent-2" tabindex="4"><i class="mdi-content-send right"></i>Submit</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="breaker"></div>
-						<div class="container">
-							<div class="smallcontainer">
-								<h2>Sponsors</h2>
-							</div>
-							<div class="smallcontainer">
-								<ul class="collapsible popout" data-collapsible="accordion">
-									<li>
-										<div class="collapsible-header"><i class="mdi-action-account-child"></i>Become a sponsor!</div>
-										<div class="collapsible-body">
-											<div class="container">
-												<h2>Send us an email and we'll get back to you asap!</h2>
-												<div class="row">
-													<form class="col s12">
-														<div class="row">
-															<div class="input-field col s12 m6 l6">
-																<input id="sponsor_email" type="email" class="validate" tabindex="5">
-																<label for="sponsor_email">Email</label>
-															</div>
-															<div class="input-field col s12 m6 l6">
-																<input id="sponsor_name" type="text" class="validate" tabindex="6">
-																<label for="sponsor_name">Company</label>
-															</div>
-															<div class="input-field col s12">
-																<textarea id="sponsor_body" class="materialize-textarea" tabindex="7"></textarea>
-																<label for="sponsor_body">Tell us a bit about yourself</label>
-															</div>
-														</div>
-													</form>
-													<div style="float:right;">
-														<a class="waves-effect waves-light btn disabled red accent-2" tabindex="8"><i class="mdi-content-send right"></i>Submit</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
+<div class="center">
+<div class="schedule-container">
+<div class="card">
+<div class="schedule-day">
+<h1>Friday, June 10</h1>
+</div>
+<div class="schedule-content">
+</div>
+<div class="schedule-day">
+<h1>Saturday, June 11</h1>
+</div>
+<div class="schedule-content">
+</div>
+</div>
+</div>
+</div>
+</div>
+-->
+		<div class="section scrollspy section-container grey lighten-1" id="Sponsor">
+			<div class="section-header grey darken-2">
+				<h1>Sponsors</h1>
+			</div>
+			<div class="sponsor-wall">
+				<div style="margin:0px auto; display:block">
+					<a href="https://www.bitpay.com/"><img src="img/sponsor/BitPay.png" style="height: 200px;" class="rounded"/></a>
+					<a href="http://www.workingtogetherforchange.com/"><img src="img/sponsor/WTFC.jpg" style="height: 200px"/></a>
 				</div>
-				<div class="io-content opaque scrollspy" id="involve">
-					<div class="col s12 io-content-header red accent-2 valign-wrapper">
-						<h1 class="white-text valign">Get Involved</h1>
-					</div>
-					<div class="io-section">
-						<div class="container">
-							<div class="row">
-								<div class="col s12">
-									<ul class="tabs">
-										<li class="tab col s3"><a class="active" href="#mentor">Be a Mentor!</a></li>
-										<li class="tab col s3"><a href="#volunteer">Be a Volunteer!</a></li>
-									</ul>
-								</div>
-								<div id="mentor" class="col s12">
-									<div class="container">
-										<h1>HackStart will be welcoming high school students to come and build extraordinary things. However, they'll need your help! As mentors, you'll be advising these students in implementing their ideas and turning them into reality.</h1>
-										<div class="row">
-											<form class="col s12">
-												<div class="row">
-													<div class="input-field col s12 m6 l6">
-														<input id="mentor_fname" type="text" class="validate" tabindex="9">
-														<label for="mentor_fname">First Name</label>
-													</div>
-													<div class="input-field col s12 m6 l6">
-														<input id="mentor_lname" type="text" class="validate" tabindex="10">
-														<label for="mentor_lname">Last Name</label>
-													</div>
-													<div class="input-field col s12 m6 l6">
-														<input id="mentor_phone" type="tel" class="validate" tabindex="11">
-														<label for="mentor_phone">Phone Number</label>
-													</div>
-													<div class="input-field col s12 m6 l6">
-														<input id="mentor_email" type="email" class="validate" tabindex="12">
-														<label for="mentor_email">Email</label>
-													</div>
-													<div class="input-field col s12 m12 l12">
-														<textarea id="mentor_field" class="materialize-textarea" tabindex="13"></textarea>
-														<label for="mentor_field">What languages, technologies, devices, frameworks, APIs, platforms, and/or other fields are you able to provide mentorship in for the hackers?</label>
-													</div>
-													<div class="input-field col s12 m12 l12">
-														<textarea id="mentor_availibility" class="materialize-textarea" tabindex="14"></textarea>
-														<label for="mentor_availibility">Which hours will you be available?</label>
-													</div>
-													<div class="input-field col s12 m12 l12">
-														<textarea id="mentor_comments" class="materialize-textarea" tabindex="15"></textarea>
-														<label for="mentor_comments">Comments</label>
-													</div>
-												</div>
-												<div style="float:right;">
-													<p>
-														<input type="checkbox" class="filled-in" id="volunteer_news"/>
-														<label for="mentor_news">Sign up for newsletter</label>
-													</p>
-													<a class="waves-effect waves-light btn disabled red accent-2" tabindex="16"><i class="mdi-content-send right"></i>Submit</a>
-												</div>
-											</form>
-										</div>
-									</div>
-								</div>
-								<div id="volunteer" class="col s12">
-									<div class="container">
-										<h1>An event like this can't happen without your help!</h1>
-										<h2>We will need a number of volunteers to make sure that the event happens smoothly without any bumps. The types of volunteers that we need are as follows</h2>
-										<ul class='collection'>
-											<li class="collection-item"> 
-												<h3>Fuel Feeder</h3>
-												<p>Help coordinate deliveries, manage food, and operate registration!</p>
-											</li>
-											<li class="collection-item"> 
-												<h3>Floater</h3>
-												<p>We’re looking for sharp kids to spot out issues while others are busy.</p>
-											</li>
-											<li class="collection-item"> 
-												<h3>Cheerleader</h3>
-												<p>We’re looking for kids filled with spirit. It takes a special kind of person to keep people happy at 3:00 AM. </p>
-											</li>
-										</ul>
-										<div class="row">
-											<form class="col s12">
-												<div class="row">
-													<div class="input-field col s12 m6 l6">
-														<input id="volunteer_fname" type="text" class="validate" tabindex="17">
-														<label for="volunteer_fname">First Name</label>
-													</div>
-													<div class="input-field col s12 m6 l6">
-														<input id="volunteer_lname" type="text" class="validate" tabindex="18">
-														<label for="volunteer_lname">Last Name</label>
-													</div>
-													<div class="input-field col s12 m6 l6">
-														<input id="volunteer_phone" type="tel" class="validate" tabindex="19">
-														<label for="volunteer_phone">Phone Number</label>
-													</div>
-													<div class="input-field col s12 m6 l6">
-														<input id="volunteer_email" type="email" class="validate" tabindex="20">
-														<label for="volunteer_email">Email</label>
-													</div>
-													<div class="input-field col s12 m12 l12">
-														<textarea id="volunteer_role" class="materialize-textarea" tabindex="21"></textarea>
-														<label for="volunteer_role">Which roles would you be comfortable filling?</label>
-													</div>
-													<div class="input-field col s12 m12 l12">
-														<textarea id="volunteer_availibility" class="materialize-textarea" tabindex="22"></textarea>
-														<label for="volunteer_availibility">Which hours will you be available?</label>
-													</div>
-													<div class="input-field col s12 m12 l12">
-														<textarea id="volunteer_comments" class="materialize-textarea" tabindex="23"></textarea>
-														<label for="volunteer_comments">Comments</label>
-													</div>
-												</div>
+				<a href="https://www.codehs.com/"><img src="img/sponsor/CodeHS.png" style="height: 180px"/></a>
+				<a href="https://www.makeschool.com/"><img src="img/sponsor/MakeSchool.png" style="height: 200px"/></a>
 
-												<div style="float:right;">
-													<p>
-														<input type="checkbox" class="filled-in" id="volunteer_news"/>
-														<label for="volunteer_news">Sign up for newsletter</label>
-													</p>
-													<a class="waves-effect waves-light btn disabled red accent-2" tabindex="24"><i class="mdi-content-send right"></i>Submit</a>
-												</div>
-											</form>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>-->
 			</div>
 		</div>
 
-		<!--Import jQuery before materialize.js-->
+		<div class="section scrollspy section-container black" id="Contact">
+			<div class="section-header black">
+				<h1>Contact Us</h1>
+			</div>
+			<p class="white-text">Have a question or comment? Contact us and we'll get back to you as soon as possible!</p>
+			<p> <a href="mailto:hackstartatl@gmail.com">HackStartATL@gmail.com</a> </p>
+			<div style="text-align:center">
+				<a class="waves-effect waves-light btn white-text red accent-2" href="https://twitter.com/hackstartatl"><i class="fa fa-twitter fa-fw left white-text"></i>twitter</a>
+			</div>
+		</div>
+
+		<div class="map-canvas">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d828.3995193413783!2d-84.37315762698445!3d33.84847437507012!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x65ccc760bad4ac7e!2sBitPay+Headquarters!5e0!3m2!1sen!2sus!4v1434399227205" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+		</div>
+
+		<footer>
+			<p class="white-text text-darken-2"> Organized by <a href="http://www.anthonyliu.com">Anthony Liu</a> and <a href="http://www.adityasood.me">Aditya Sood</a></p>
+		</footer>
+
+
+		<nav class="navbar navbar-custom navbar-fixed-top center">
+			<ul class="nav section table-of-contents">
+				<li><a href="#header-container">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#FAQ">FAQ</a></li>
+				<!--<li><a href="#Schedule">Schedule</a></li>-->
+				<li><a href="#Sponsor">Sponsors</a></li>
+				<li><a href="#Contact">Contact</a></li>
+			</ul>
+		</nav>
+
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script type="text/javascript">$(".button-collapse").sideNav();</script>
+		<script src="js/materialize.min.js"></script>
+		<script type="text/javascript">
+			$(window).scroll(function() {
+				if ($(".navbar").offset().top > 50) {
+					$(".navbar-fixed-top").addClass("top-nav-collapse");
+				} else {
+					$(".navbar-fixed-top").removeClass("top-nav-collapse");
+				}
+			});
+
+			$(function() {
+				$('a.page-scroll').bind('click', function(event) {
+					var $anchor = $(this);
+					$('html, body').stop().animate({
+						scrollTop: $($anchor.attr('href')).offset().top
+					}, 1500, 'easeInOutExpo');
+					event.preventDefault();
+				});
+			});
+
+			$('.navbar-collapse ul li a').click(function() {
+				$('.navbar-toggle:visible').click();
+			});
+		</script>
 		<script type="text/javascript">
 			$(document).ready(function(){
-				$('ul.tabs').tabs();
-				$('.scrollspy').scrollSpy({ target: '#spy', offset:80});
-				$('.collapsible').collapsible({
-					accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
-				});
-				$(document).ready(function(){
-					$('.toc-wrapper').pushpin({
-						top: $('#header').offset().top, offset: $('#header').height()/3
-					});
-				});
-				
-				$('a[href*=#about], a[href*=#home], a[href*=#faq],a[href*=#involve], a[href*=#sponsors]').click(function() {
+				$('.scrollspy').scrollSpy();
+
+				$('a[href*=#header-container], a[href*=#about], a[href*=#FAQ],a[href*=#Schedule], a[href*=#Sponsor], a[href*=#Contact]').click(function() {
 					if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
 						var target = $(this.hash);
 						target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 						if (target.length) {
 							$('html,body').animate({
-								scrollTop: target.offset().top
+								scrollTop: target.offset().top - 60
 							}, 400);
 							return false;
 						}
 					}
 				});
 			});
+
 		</script>
-		<script type="text/javascript" src='js/smooth-scroll.js'></script>
-		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+									})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-64140528-1', 'auto');
+			ga('send', 'pageview');
+
+		</script>
 	</body>
 </html>
