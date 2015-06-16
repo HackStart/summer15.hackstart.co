@@ -1,0 +1,67 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-styles/color.html">
+<link rel="import" href="../bower_components/google-youtube/google-youtube.html">
+<link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
+<dom-module id="about-element">
+	<style>
+
+		.section {
+			position: relative;
+			width: 100%;
+			padding-bottom: 20%;
+			background-color: var(--paper-red-400);
+
+				}
+		.section-header {
+			position: relative;
+			width:100%;
+			padding:1% 0;
+			text-align: center;
+			background-color: var(--paper-red-700);
+
+				}
+
+		.section-header h1 {
+			color: white;
+			margin: 0;
+			@apply(--paper-font-display3);
+		}
+		.content {
+			position: relative;
+			margin: 0 auto;
+			text-align: center;
+			@apply(--layout-vertical);
+			@apply(--layout-center);
+		}
+
+		.small {
+			width: 50%;	
+		}
+
+		p {
+			color:white;
+			text-align: justify;
+			@apply(--paper-font-headline);
+		}
+
+	</style>
+	<template>
+
+		<div class="section">
+			<div class="section-header">
+				<h1>What is HackStart?</h1>
+			</div>
+			<div class="content small">
+				<p>
+					HackStart is a hackathon for high school students. Over the course of two days and one night, you will face new challenges, meet new people, and build something extraordinary. Form teams of four to develop apps and pitch them to judges for a unique opportunity to take home a cash prize!
+				</p>
+			</div>
+		</div>
+
+	</template>
+</dom-module>
+<script>
+	Polymer ({
+		is: "about-element",
+	});
+</script>

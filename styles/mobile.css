@@ -1,0 +1,55 @@
+.navbar, #bgvid, footer {
+	display:none;
+}
+
+#header-container {
+	background: url('../vid/Saint_Barthelemy.png') no-repeat #000000;
+}
+
+#logo {
+	height: 115px;
+	width: 300px;
+}
+
+#header h2 {
+	margin-bottom:-30px;
+	margin-top: 0px;
+	font-size: 1em;
+}
+
+#header h1 {
+	margin-bottom: 0px;
+	margin-top: 20px;
+	line-height: 20px;
+	font-size: 1.1em;
+}
+
+.section-header h1 {
+	font-size: 2em;
+}
+
+p {
+	font-size: 1.1em;
+}
+
+.sponsor-wall {
+	width: 80%;
+}
+
+.sponsor-wall img {
+	max-height: 150px;
+	min-height: 50px;
+	margin: 5px;
+}
+
+.size-180 {
+	height: 80px;
+}
+
+.size-200 {
+	height:90px;
+}
+
+.map-canvas {
+	height: 250px;
+}

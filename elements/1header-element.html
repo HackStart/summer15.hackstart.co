@@ -1,0 +1,72 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-styles/typography.html">
+<dom-module id="header-element">
+
+	<style>
+		#header-container {
+			position:relative;
+			min-height: 100%;
+			min-width: 100%;
+		}
+		#header{
+			position:absolute;
+			background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+			height: 100%;
+			width:100%;
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			align-items: center;
+			z-index: 2;
+		}
+		#bgvid {
+			position: absolute;
+			right:0;
+			bottom: 0;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			z-index: -100;
+		}
+		#logo {
+			height: 300px;
+			width: 782px;
+			position:relative;
+		}
+		#header h2 {
+			color: white;
+			@apply(--paper-font-display1);
+			margin-bottom:0;
+			margin-top: 10px;
+		}
+		#header h1 {
+			color: white;
+			@apply(--paper-font-display2);
+			margin-bottom: 0;
+			margin-top: 10px;
+		}
+	</style>
+
+	<template>
+		<div id="header-container">
+			<div id="header">
+				<div>
+					<img src="../img/logo.svg" alt="HackStart" id="logo">
+					<h2>Atlanta, Georgia</h2>
+					<h2>July 10 and July 11 2015</h2>
+					<h1>Compete against other high schoolers to win cash prizes</h1>
+				</div>
+			</div>
+			<video autoplay="autoplay" loop="loop" autobuffer="autobuffer" muted="muted" poster="../vid/Saint_Barthelemy.png" id="bgvid">
+				<source src="../vid/Saint_Barthelemy.mp4" type="video/mp4">
+			</video>
+		</div>
+
+	</template>
+</dom-module>
+<script>
+	Polymer ({
+		is: "header-element",
+	});
+</script>
