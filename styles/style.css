@@ -148,19 +148,24 @@ body{
 	position: relative;
 	width: 100%;
 	padding-top: 0;
+	padding-bottom: 100px;
 
 }
 .section-header {
 	position: relative;
 	width:100%;
 	text-align: center;
-	padding: 10px;
+	padding: 30px;
 	z-index: 3;
 }
 
 .section-header h2 {
 	color: white;
 	margin: 0;
+}
+
+.video-container {
+	margin-top: 30px
 }
 
 p {
@@ -208,7 +213,46 @@ div {
 
 .schedule-container {
 	margin: 30px auto 0 auto;
-	width:30%;
+}
+
+.schedule {
+	padding: 30px;
+}
+
+.schedule-content {
+	margin: 0 30px 0 30px;
+}
+
+.schedule-day {
+	margin 0;
+}
+
+.schedule-day p{
+	clear:both;
+	margin: 5px 15px 5px;
+	font-size: 1.5em;
+	font-weight: 900
+}
+
+.event {
+	clear: both;
+}
+
+.event p {
+	font-size: 1.3em;
+	margin: 0;
+}
+
+.event p:first-child {
+	float: left;
+	font-weight: 400;
+	
+}
+
+.event p:nth-child(2) {
+	float: right;
+	padding-left: 30px;
+	font-weight: 200;
 }
 
 .sponsor-wall {
@@ -279,8 +323,9 @@ footer p a:hover {
 	font:14px Helvetica,Arial,sans-serif; 
 	width: 100%;
 	text-align: center;
-	padding-top: 20px;
-	background-color: #212121 ;
+	padding-top: 40px;
+	margin-top: 20px;
+	padding-bottom: 10px;
 }
 
 #mc_embed_signup label {
@@ -309,4 +354,31 @@ input {
 	color:lightgray;
 	font-weight: 100;
 	font-size: 1em;
+}
+
+.aboutus {
+	margin: auto;
+	height: 260px;
+}
+
+.aboutus .person img {
+	margin-top: 10px; 
+	height: 100px;
+	filter: gray;
+	-webkit-filter: grayscale(1);
+	border-radius: 100%;
+}
+
+.aboutus .person p {
+	font-size: 1em;
+	text-align: center;
+	margin: 0;
+}
+
+.tabs, .tabs .tab {
+	height: auto;
+}
+
+.tabs .tab a:hover, .tabs .tab a:visited .tabs .tab a:active, .tabs .tab a:link{
+	text-decoration: none;
 }

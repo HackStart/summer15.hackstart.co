@@ -11,24 +11,32 @@
 	width: 300px;
 }
 
-#header h2 {
-	margin-bottom:-30px;
+#header p {
 	margin-top: 0px;
 	font-size: 1em;
 }
 
-#header h1 {
+#header .headline {
 	margin-bottom: 0px;
-	margin-top: 20px;
+	margin-top: 5px;
 	line-height: 20px;
 	font-size: 1.1em;
 }
 
-.section-header h1 {
+.section-container {
+	padding-bottom: 20px;
+}
+
+.section-header {
+	padding: 10px;
+}
+
+.section-header h2 {
 	font-size: 2em;
 }
 
 p {
+	margin-top: 0;
 	font-size: 1.1em;
 }
 
@@ -40,6 +48,35 @@ p {
 	max-height: 150px;
 	min-height: 50px;
 	margin: 5px;
+}
+
+.faq {
+	margin-top: -10px;
+}
+
+.schedule-container {
+	margin: -10px auto 0 auto;
+}
+
+.schedule {
+	padding: 5px;
+}
+
+.schedule-content {
+	margin: 0 10px 0 10px;
+}
+
+.schedule-day p{
+	margin: 5px 5px 5px;
+}
+
+.event p {
+	font-size: 1.1em;
+}
+
+.aboutus {
+	margin: auto;
+	height: 360px;
 }
 
 .size-180 {
