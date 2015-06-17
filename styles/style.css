@@ -228,7 +228,12 @@ div {
 }
 
 .map-canvas {
-	height: 550px;
+	height: 350px;
+}
+
+footer {
+	background-color: black;
+
 }
 
 footer p {
@@ -268,4 +273,40 @@ footer p a:hover {
 
 .size-200 {
 	height: 200px;
+}
+
+#mc_embed_signup{
+	font:14px Helvetica,Arial,sans-serif; 
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	background-color: #212121 ;
+}
+
+#mc_embed_signup label {
+	color: white;
+	font-size: 1.4em;
+}
+
+input {
+	color: white;
+}
+
+.input-field label {
+	color: white;
+}
+
+.input-field input[type=email]:focus + label {
+	color:white;
+}
+
+.input-field input[type=email]:focus {
+	border-bottom: 1px solid #5c6bc0 ;
+	box-shadow: 0 1px 0 0 #5c6bc0 ;
+}
+
+#mc_embed_signup .small-label {
+	color:lightgray;
+	font-weight: 100;
+	font-size: 1em;
 }

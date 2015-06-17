@@ -53,3 +53,7 @@ p {
 .map-canvas {
 	height: 250px;
 }
+
+#mc_embed_signup{
+	display: none;
+}
