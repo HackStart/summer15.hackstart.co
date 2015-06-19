@@ -375,6 +375,14 @@ input {
 	margin: 0;
 }
 
+.bio {
+	font-size: 1.1em;
+}
+
+.aboutus b {
+	color: #ee6e73;
+}
+
 .tabs, .tabs .tab {
 	height: auto;
 }
