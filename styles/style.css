@@ -358,7 +358,7 @@ input {
 
 .aboutus {
 	margin: auto;
-	height: 260px;
+	height: auto;
 }
 
 .aboutus .person img {
