@@ -79,18 +79,27 @@ p {
 	height: 360px;
 }
 
-.size-180 {
-	height: 80px;
-}
-
-.size-200 {
-	height:90px;
-}
-
 .map-canvas {
 	height: 250px;
 }
 
 #mc_embed_signup{
 	display: none;
+}
+
+
+.size-110 {
+	height:80px;
+}
+
+.size-140 {
+	height:80px;
+}
+
+.size-180 {
+	height: 80px;
+}
+
+.size-200 {
+	height:90px;
 }
